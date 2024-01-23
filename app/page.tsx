@@ -10,7 +10,7 @@ export default function Home() {
       >
         <div className="flex flex-row m-auto">
           <div className="flex flex-col items-center gap-2 z-[10] max-w-[720px] px-10 pb-56 mt-20 md:pl-20 md:pb-20 md:mt-0 md:items-start">
-            <h1 className="text-[36px] text-[#636e72] font-semibold md:text-[49px] mt-20">
+            <h1 className="text-[30px] text-[#636e72] font-semibold md:text-[49px] mt-20">
               Junior
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}
