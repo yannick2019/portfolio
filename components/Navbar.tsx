@@ -41,9 +41,13 @@ export const Navbar = () => {
           </Link>
         ))}
         <div>
-          <button className="text-white border border-white rounded-[20px] px-4 py-1">
+          <a
+            href="/pdf/test.pdf"
+            download
+            className="text-white border border-white rounded-[20px] px-4 py-1"
+          >
             My CV
-          </button>
+          </a>
         </div>
       </div>
     </div>
