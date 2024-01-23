@@ -6,7 +6,7 @@ import Link from "next/link";
 export const Navbar = () => {
   return (
     <div
-      style={{ background: "url(/main-bg.webp)" }}
+      style={{ background: "#4b3792" }}
       className="fixed top-0 z-[40] w-full h-[80px] flex justify-between items-center px-10 md:px-20"
     >
       <div className="flex flex-row gap-3 items-center">

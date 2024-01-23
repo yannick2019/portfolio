@@ -6,7 +6,7 @@ import { Projects } from "@/constants";
 const Page = () => {
   return (
     <div
-      style={{ backgroundImage: "url(/Mountains.jpg)" }}
+      style={{ backgroundColor: "#dfe6e9" }}
       className="w-screen h-screen flex items-center justify-center bg-center bg-cover overflow-auto sm:overflow-auto md:overflow-auto lg:overflow-visible pt-40 lg:pt-10"
     >
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 max-w-[90%] max-h-[90vh]">

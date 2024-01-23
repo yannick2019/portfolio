@@ -3,7 +3,7 @@ import React from "react";
 const ContactForm = () => {
   return (
     <form>
-      <h2 className="text-2xl font-bold mb-5 text-white">Contact Me</h2>
+      <h1 className="text-2xl font-bold mb-5 text-[#636e72]">Contact Me</h1>
       <div className="mb-3">
         <input
           type="text"
