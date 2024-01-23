@@ -5,7 +5,10 @@ import Link from "next/link";
 
 export const Navbar = () => {
   return (
-    <div className="fixed top-0 z-[40] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20">
+    <div
+      style={{ background: "url(/main-bg.webp)" }}
+      className="fixed top-0 z-[40] w-full h-[80px] flex justify-between items-center px-10 md:px-20"
+    >
       <div className="flex flex-row gap-3 items-center">
         <div className="relative">
           <Image

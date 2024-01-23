@@ -9,7 +9,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Your name"
           name="name"
-          className="w-full px-3 py-2 text-sm placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-[400px] px-3 py-2 text-sm placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <div className="mb-3">
@@ -17,7 +17,7 @@ const ContactForm = () => {
           type="email"
           placeholder="Email"
           name="email"
-          className="w-full px-3 py-2 text-sm placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-[400px] px-3 py-2 text-sm placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <div className="mb-3">
@@ -26,12 +26,12 @@ const ContactForm = () => {
           name="message"
           rows={4}
           cols={50}
-          className="w-full px-3 py-2 text-sm bg-white border-0 rounded shadow"
+          className="w-[400px] px-3 py-2 text-sm bg-white border-0 rounded"
         >
           Type your message.
         </textarea>
       </div>
-      <button className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400">
+      <button className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-[#4b3792]">
         Send a message
       </button>
     </form>

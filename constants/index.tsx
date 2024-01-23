@@ -79,12 +79,12 @@ export const SkillData = [
 export const Socials = [
   {
     name: "Linkedin",
-    src: "/linkedin.png",
+    src: "/icons8-linkedin.png",
     href: "https://www.linkedin.com/in/yannick-yanga-4aa4a6280/",
   },
   {
     name: "Github",
-    src: "/github.jpeg",
+    src: "/icons8-github.png",
     href: "https://github.com/yannick2019",
   },
 ];

@@ -1,5 +1,4 @@
 "use client";
-import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -37,7 +36,7 @@ const ProjectCard = ({ image, title, text, href, techImg }: Props) => {
             <Link
               href={href}
               target="_blank"
-              className="rounded-[20px] absolute top-[58%] left-[35%] bg-blue-500 hover:bg-blue-400 px-5 py-2 text-center text-white max-w-[300px]"
+              className="rounded-[20px] absolute top-[58%] left-[35%] bg-[#4b3792] hover:bg-purple px-5 py-2 text-center text-white max-w-[300px]"
             >
               Live Demo
             </Link>
