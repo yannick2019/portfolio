@@ -1,8 +1,38 @@
+"use client";
 import React from "react";
 
 const ContactForm = () => {
+  const sendEmail = async (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const target = event.target as typeof event.target & {
+      name: { value: string };
+      email: { value: string };
+      message: { value: string };
+    };
+
+    const res = await fetch("/send", {
+      body: JSON.stringify({
+        name: target.name.value,
+        email: target.email.value,
+        message: target.message.value,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    });
+
+    const result = await res.json();
+    if (result) {
+      console.log("Success");
+    } else {
+      console.log("Failed");
+    }
+  };
+
   return (
-    <form>
+    <form onSubmit={sendEmail}>
       <h1 className="text-2xl font-bold mb-5 text-[#636e72]">Contact Me</h1>
       <div className="mb-3">
         <input

@@ -14,7 +14,8 @@ export default function Home() {
               Junior
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 {" "}
-                Web developer
+                Front-end
+                <br /> Developer
               </span>
             </h1>
             <p className="flex flex-col text-black items-center md:block leading-loose">
