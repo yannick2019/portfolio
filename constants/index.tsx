@@ -1,5 +1,3 @@
-import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
-
 export const SkillData = [
   {
     name: "Html 5",
@@ -31,13 +29,6 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  {
-    name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-
   {
     name: "TypeScript",
     Image: "/ts.png",
@@ -123,28 +114,5 @@ export const Projects = [
     src: "/pokedex-capture.jpeg",
     href: "https://yannick2019.github.io/pokedex",
     techImg: ["/react.png", "/js.png", "/css.png"],
-  },
-];
-
-export const NavLinks = [
-  {
-    name: "/",
-    icon: RxHome,
-    link: "/",
-  },
-  {
-    name: "/my-skills",
-    icon: RxPerson,
-    link: "/my-skills",
-  },
-  {
-    name: "/my-projects",
-    icon: RxDashboard,
-    link: "/my-projects",
-  },
-  {
-    name: "/contact-me",
-    icon: RxClipboard,
-    link: "/contact-me",
   },
 ];

@@ -13,7 +13,7 @@ interface Props {
 
 const ProjectCard = ({ image, title, text, href, techImg }: Props) => {
   return (
-    <div className="w-[440px] h-[240px] rounded-md cursor-pointer">
+    <div className="w-[440px] h-[240px] rounded-md cursor-pointer border border-[#4b3792]">
       <div className="flip-card-inner w-full h-full">
         <div
           style={{ backgroundImage: `url(${image})` }}

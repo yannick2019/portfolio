@@ -10,25 +10,28 @@ export const Navbar = () => {
       className="fixed top-0 z-[40] w-full h-[80px] flex justify-between items-center px-10 md:px-20"
     >
       <div className="flex flex-row gap-3 items-center">
-        <div className="relative">
-          <Image
-            src="/yannick.png"
-            alt="logo"
-            width={40}
-            height={40}
-            className="w-full h-full object-contain rounded-full"
-          />
-        </div>
-        <h1 className="text-white text-[25px] font-semibold hidden sm:block">
-          Yannick
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
-            {" "}
-            Yanga{" "}
-          </span>
+        <h1 className="text-white text-[25px] font-semibold hidden md:block">
+          <Link href="/">Yannick Yanga</Link>
         </h1>
       </div>
 
-      <div className="flex flex-row gap-5 mb-2 items-center">
+      <div className="hidden flex flex-col gap-4 md:block md:flex-row">
+        <div className="text-white flex flex-col items-center gap-4 md:flex-row md:gap-7">
+          <Link href={"/"}>Home</Link>
+          <Link href={"/my-skills"}>Skills</Link>
+          <Link href={"/my-projects"}>Projects</Link>
+          <Link href={"/about-me"}>About me</Link>
+          <Link
+            href={"/pdf/test.pdf"}
+            className="text-white border border-white rounded-[20px] px-4 py-1"
+          >
+            My CV
+          </Link>
+        </div>
+      </div>
+
+      {/* Socials */}
+      <div className="absolute top-[400px] right-0 bg-[#4b3792] flex flex-col gap-2 p-2 rounded-l-lg hidden md:block">
         {Socials.map((social) => (
           <Link href={social.href} target="_blanck" rel="" key={social.name}>
             <Image
@@ -40,15 +43,6 @@ export const Navbar = () => {
             />
           </Link>
         ))}
-        <div>
-          <a
-            href="/pdf/test.pdf"
-            download
-            className="text-white border border-white rounded-[20px] px-4 py-1"
-          >
-            My CV
-          </a>
-        </div>
       </div>
     </div>
   );
