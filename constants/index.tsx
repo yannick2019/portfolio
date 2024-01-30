@@ -42,12 +42,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Framer Motion",
-    Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Node js",
     Image: "/node-js.png",
     width: 80,
