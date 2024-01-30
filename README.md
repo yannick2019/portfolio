@@ -8,7 +8,6 @@ My portfolio to present my self and showcase my projects.
 - Typescript
 - Tailwind
 - Next.js
-- Framer motion
 
 ## Copyright
 
