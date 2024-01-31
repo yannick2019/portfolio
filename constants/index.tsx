@@ -78,7 +78,7 @@ export const Projects = [
   {
     title: "FriendLink",
     text: "Facebook-style web app using React.js, JavaScript, Node js, Express, TailwindCSS, Axios.",
-    src: "/friendlink-capture.png",
+    img: "/friendlink-capture.png",
     href: "https://friendlink-client.vercel.app/",
     techImg: [
       "/react.png",
@@ -91,22 +91,28 @@ export const Projects = [
   {
     title: "Restaurant Koniya",
     text: "Full-stack Restaurant website : HTML5, JavaScript and Bootstrap with backend in PHP.",
-    src: "/restaurant-capture.jpeg",
+    img: "/restaurant-capture.jpeg",
     href: "http://koniya-restaurants.infinityfreeapp.com/index.html",
     techImg: ["/html.png", "/js.png", "/bootstrap.jpeg", "/mysql.png"],
   },
   {
     title: "Miner clicker",
     text: "Cookie clicker game using HTML5, CSS, JavaScript.",
-    src: "/cookie-clicker-capture.png",
+    img: "/cookie-clicker-capture.png",
     href: "https://yannick2019.github.io/cookie-clicker/",
     techImg: ["/html.png", "/css.png", "/js.png"],
   },
   {
     title: "Pokedex",
     text: "Web app using React.js, JavaScript, Vite.js and CSS",
-    src: "/pokedex-capture.jpeg",
+    img: "/pokedex-capture.jpeg",
     href: "https://yannick2019.github.io/pokedex",
     techImg: ["/react.png", "/js.png", "/css.png"],
+  },
+  {
+    title: "Hangman",
+    text: "Hangman game, developed with HTML5, CSS, JavaScript",
+    img: "/hangman-game.png",
+    href: "https://yannick2019.github.io/hangman/",
   },
 ];

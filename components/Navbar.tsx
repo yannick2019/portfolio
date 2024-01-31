@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <div
       style={{ background: "#4b3792" }}
-      className="fixed top-0 z-[40] w-full h-[80px] flex justify-between items-center px-10 md:px-20"
+      className="fixed top-0 z-[40] w-full h-[100px] flex justify-between items-center px-10 md:px-20"
     >
       <Sidebar />
       <div className="flex flex-row gap-3 items-center">
@@ -23,7 +23,7 @@ export const Navbar = () => {
           <Link href={"/my-projects"}>Projects</Link>
           <Link href={"/about-me"}>About</Link>
           <Link
-            href={"/pdf/test.pdf"}
+            href={"/pdf/CV_update.pdf"}
             className="text-white border border-white rounded-[20px] px-4 py-1"
           >
             My CV

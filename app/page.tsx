@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Socials } from "@/constants";
+import Cursor from "@/components/cursor/Cursor";
 
 export default function Home() {
   const [inProp, setInProp] = useState(false);
@@ -88,6 +89,7 @@ export default function Home() {
               width={400}
             />
           </div>
+          <Cursor />
         </div>
       </div>
     </main>

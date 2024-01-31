@@ -13,19 +13,19 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-center overflow-auto sm:overflow-auto md:overflow-auto lg:overflow-visible pt-40 lg:pt-10">
+    <div className="relative w-screen h-screen flex items-center justify-center bg-center overflow-auto overflow-visible mt-[80px] pt-40 lg:pt-10 md:mt-[100px] lg:mt-[160px]">
       <CSSTransition in={inProp} timeout={2000} classNames="fade">
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6 max-w-[90%] max-h-[90vh]">
+        <div className="grid grid-cols-1 gap-[50px] md:gap-[100px] max-w-[90%] max-h-[100vh]">
           {Projects.map((project, index) => (
             <ProjectCard
               key={index}
               title={project.title}
               text={project.text}
-              image={project.src}
               href={project.href}
-              techImg={project.techImg}
+              img={project.img}
             />
           ))}
+          <div className="h-[5px] md:h-[12px]"></div>
         </div>
       </CSSTransition>
     </div>
