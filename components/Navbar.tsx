@@ -9,7 +9,10 @@ export const Navbar = () => {
       style={{ background: "#4b3792" }}
       className="fixed top-0 z-[40] w-full h-[100px] flex justify-between items-center px-10 md:px-20"
     >
-      <Sidebar />
+      <div className="md:hidden lg:hidden">
+        <Sidebar />
+      </div>
+
       <div className="flex flex-row gap-3 items-center">
         <h1 className="text-white text-[25px] font-semibold hidden md:block">
           <Link href="/">Yannick Yanga</Link>
