@@ -2,8 +2,32 @@
 import React from "react";
 import Link from "next/link";
 import Sidebar from "./sidebar/Sidebar";
+import Transition from "./Transition";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export const Navbar = () => {
+  const [isRouting, setisRouting] = useState(false);
+  const path = usePathname();
+  const [prevPath, setPrevPath] = useState("/");
+
+  useEffect(() => {
+    if (prevPath !== path) {
+      setisRouting(true);
+    }
+  }, [path, prevPath]);
+
+  useEffect(() => {
+    if (isRouting) {
+      setPrevPath(path);
+      const timeout = setTimeout(() => {
+        setisRouting(false);
+      }, 1200);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [isRouting, path]);
+
   return (
     <div
       style={{ background: "#4b3792" }}
@@ -21,6 +45,7 @@ export const Navbar = () => {
 
       <div className="hidden flex flex-col gap-4 md:block md:flex-row">
         <div className="text-white flex flex-col items-center gap-4 md:flex-row md:gap-7">
+          {isRouting && <Transition />}
           <Link href={"/"}>Home</Link>
           <Link href={"/my-skills"}>Skills</Link>
           <Link href={"/my-projects"}>Projects</Link>
