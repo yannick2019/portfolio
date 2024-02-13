@@ -96,6 +96,12 @@ export const Projects = [
     techImg: ["/html.png", "/js.png", "/bootstrap.jpeg", "/mysql.png"],
   },
   {
+    title: "Cloudpics",
+    text: "Slick image gallery web application where user can upload image stocks, connect with their Gmail account, manage their own account and also search and filter results.",
+    img: "/screen-shot-cloudpics.png",
+    href: "https://cloudpics-b1aa9.web.app/",
+  },
+  {
     title: "Miner clicker",
     text: "Cookie clicker game using HTML5, CSS, JavaScript.",
     img: "/cookie-clicker-capture.png",
