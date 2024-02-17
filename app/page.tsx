@@ -29,9 +29,8 @@ export default function Home() {
               <div>
                 <p className="flex flex-col text-black items-center md:block leading-relaxed text-2xl">
                   <span className="text-2xl">Hi 👋 I&apos;m Yannick</span>
-                  <br />A passionate web developer having an experience of
-                  building web applications. My passion for programming and
-                  digital creation encourages me to explore new frontiers in
+                  <br />A passionate web developer. My passion for programming
+                  and digital creation encourages me to explore new frontiers in
                   this constantly evolving world.
                 </p>
                 <p className="mt-2">cleps2012@gmail.com</p>
