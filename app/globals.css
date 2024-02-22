@@ -9,12 +9,6 @@ body {
   /* background-color: #dfe6e9; */
 }
 
-.text-with-stroke {
-  -webkit-text-stroke: 1px black;
-  color: white;
-  font-family: Roboto, sans-serif;
-}
-
 /* Animation with react-transition-group */
 .slide-enter {
   transform: translateX(-100%);

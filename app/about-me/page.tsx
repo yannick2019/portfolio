@@ -11,29 +11,37 @@ const Page = () => {
   }, []);
 
   return (
-    <div className="relative w-screen h-screen flex items-center justify-center bg-[#4b3792]">
-      <div className="flex items-center justify justify-center">
-        <CSSTransition in={inProp} timeout={2000} classNames="slide">
-          <h1 className="absolute z-[10] top-[100px] left-[50px] text-[50px] md:text-[70px] text-white">
-            About me
-          </h1>
-        </CSSTransition>
-        <CSSTransition in={inProp} timeout={2000} classNames="fade">
-          <div className="absolute z-[0] w-[250px] md:w-[320px] mb-6">
-            <Image
-              src={"/hero_2.png"}
-              alt="My picture"
-              width={320}
-              height={320}
-            />
-          </div>
-        </CSSTransition>
+    <div className="relative w-screen md:h-[100vh] flex items-center justify-center bg-[#4b3792] overflow-scroll md:overflow-hidden">
+      <div className="flex items-center flex-col justify-center p-4 lg:flex-row lg:gap-4">
+        <div className="mt-[100px] md:mt-[140px]">
+          <CSSTransition in={inProp} timeout={2000} classNames="fade">
+            <div className="w-[240px] md:w-[240px] lg:w-[360px] mb-6 md:mb-0 md:mt-[90px] md:flex md:items-center lg:mt-0 lg:mb-[100px]">
+              <Image
+                src={"/hero_2.png"}
+                alt="My picture"
+                width={320}
+                height={320}
+              />
+            </div>
+          </CSSTransition>
+        </div>
         <CSSTransition in={inProp} timeout={2000} classNames="slide-right">
-          <div className="mt-[600px] px-2 md:absolute z-[10] max-w-[500px] text-xl md:max-w-[700px] md:h-[200px] md:bottom-[50px] md:right-[40px] md:text-3xl text-white font-bold text-with-stroke">
-            Transitioning from Logistic to web development, I am ready to apply
-            and enhance my skills in frontend development. A quick learner with
-            a proactive mindset, I would be exciting to contribute to a dynamic
-            team and grow.
+          <div className="max-w-[500px] mb-[80px] text-lg md:max-w-[700px] md:text-xl lg:max-w-[720px] lg:text-2xl lg:mt-[200px] text-white md:flex md:flex-col md:justify-start md:mt-[40px] md:mb-[140px]">
+            <h2 className="text-[26px] md:text-[30px]">
+              Developer with a Passion for Transformation
+            </h2>
+            <br />
+            Embarking on a transformative journey from logistics to web
+            development, fueled by a newfound love for development, I am eager
+            to immerse myself in the world of web development and continue
+            cultivating my skills. Enthusiastic about diving into frontend
+            development and fueling my love for programming, I am not only a
+            quick learner but also possess a proactive mindset. My adaptability
+            and unwavering passion for continuous learning make me an asset to
+            any project. I am particularly excited about the prospect of
+            contributing to a dynamic team and actively seeking challenging
+            opportunities that will foster both my professional growth and my
+            genuine passion for coding..
           </div>
         </CSSTransition>
       </div>
