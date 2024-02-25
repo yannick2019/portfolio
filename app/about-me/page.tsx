@@ -32,7 +32,7 @@ const Page = () => {
             </h2>
             <br />
             Embarking on a transformative journey from logistics to web
-            development, fueled by a newfound love for development, I am eager
+            development, fueled by a new found love for development, I am eager
             to immerse myself in the world of web development and continue
             cultivating my skills. Enthusiastic about diving into frontend
             development and fueling my love for programming, I am not only a
