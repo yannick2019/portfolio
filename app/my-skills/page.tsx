@@ -44,12 +44,12 @@ const Page = () => {
                   Backend development:
                 </span>
                 <br />
-                PHP, Node.js, MySQL, MongoDB.
+                PHP, MySQL, Node.js, Express, MongoDB.
               </p>
             </div>
-            <span className="bg-[#4b3792] text-white p-2 rounded-[5px]">
+            {/* <span className="bg-[#4b3792] text-white p-2 rounded-[5px]">
               With a preference for the front.
-            </span>
+            </span> */}
           </section>
         </CSSTransition>
         <CSSTransition in={inProp} timeout={2000} classNames="fade">
