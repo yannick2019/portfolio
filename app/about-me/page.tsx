@@ -34,14 +34,11 @@ const Page = () => {
             Embarking on a transformative journey from logistics to web
             development, fueled by a new found love for development, I am eager
             to immerse myself in the world of web development and continue
-            cultivating my skills. Enthusiastic about diving into frontend
-            development and fueling my love for programming, I am not only a
-            quick learner but also possess a proactive mindset. My adaptability
-            and unwavering passion for continuous learning make me an asset to
-            any project. I am particularly excited about the prospect of
-            contributing to a dynamic team and actively seeking challenging
-            opportunities that will foster both my professional growth and my
-            genuine passion for coding..
+            cultivating my skills. My adaptability and unwavering passion for
+            continuous learning make me an asset to any project. I am
+            particularly excited about the prospect of contributing to a dynamic
+            team and actively seeking challenging opportunities that will foster
+            both my professional growth and my genuine passion for coding..
           </div>
         </CSSTransition>
       </div>
