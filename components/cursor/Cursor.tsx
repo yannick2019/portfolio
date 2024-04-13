@@ -19,7 +19,7 @@ const Cursor = () => {
 
   return (
     <motion.div
-      className="cursor"
+      className="cursor invisible md:visible"
       animate={{ x: position.x + 1, y: position.y + 1 }}
     ></motion.div>
   );
