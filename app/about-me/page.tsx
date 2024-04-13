@@ -28,13 +28,10 @@ const Page = () => {
         <CSSTransition in={inProp} timeout={2000} classNames="slide-right">
           <div className="max-w-[500px] mb-[80px] text-lg md:max-w-[700px] md:text-xl lg:max-w-[720px] lg:text-2xl lg:mt-[200px] text-white md:flex md:flex-col md:justify-start md:mt-[40px] md:mb-[140px]">
             <h2 className="text-[26px] md:text-[30px]">
-              Developer with a Passion for Transformation
+              Passionate Web Developer
             </h2>
             <br />
-            Embarking on a transformative journey from logistics to web
-            development, fueled by a new found love for development, I am eager
-            to immerse myself in the world of web development and continue
-            cultivating my skills. My adaptability and unwavering passion for
+            My adaptability and unwavering passion for
             continuous learning make me an asset to any project. I am
             particularly excited about the prospect of contributing to a dynamic
             team and actively seeking challenging opportunities that will foster
