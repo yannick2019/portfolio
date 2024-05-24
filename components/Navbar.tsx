@@ -51,7 +51,7 @@ export const Navbar = () => {
           <Link href={"/my-projects"}>Projects</Link>
           <Link href={"/about-me"}>About</Link>
           <Link
-            href={"/pdf/CV_update.pdf"}
+            href={"/pdf/CV_update_02.pdf"}
             className="text-white border border-white rounded-[20px] px-4 py-1"
           >
             My CV
