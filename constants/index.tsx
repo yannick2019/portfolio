@@ -36,8 +36,8 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Next js",
-    Image: "/next.png",
+    name: ".NET Core",
+    Image: "/NET_Core_Logo.png",
     width: 80,
     height: 80,
   },

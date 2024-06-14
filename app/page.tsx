@@ -21,7 +21,7 @@ export default function Home() {
             <CSSTransition in={inProp} timeout={2000} classNames="slide">
               <h1 className="text-[30px] text-[#636e72] font-semibold md:text-[60px] mt-20">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-                  Frontend Developer
+                  Fullstack Developer
                 </span>
               </h1>
             </CSSTransition>
@@ -29,9 +29,9 @@ export default function Home() {
               <div>
                 <p className="flex flex-col text-black items-center md:block leading-relaxed text-2xl">
                   <span className="text-2xl">Hi 👋 I&apos;m Yannick</span>
-                  <br />A passionate web developer. My passion for programming
-                  and digital creation encourages me to explore new frontiers in
-                  this constantly evolving world.
+                  <br />A passionate fullstack web developer. My passion for
+                  programming and digital creation encourages me to explore new
+                  frontiers in this constantly evolving world.
                 </p>
                 <p className="mt-2">cleps2012@gmail.com</p>
                 <div className="flex flex-row gap-2 mt-1">

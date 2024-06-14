@@ -44,7 +44,7 @@ const Page = () => {
                   Backend development:
                 </span>
                 <br />
-                PHP, MySQL, Node.js, Express, MongoDB, Docker.
+                PHP, C#, .NET Core, Node.js, Express, MongoDB, MySQL, Docker.
               </p>
             </div>
             {/* <span className="bg-[#4b3792] text-white p-2 rounded-[5px]">
