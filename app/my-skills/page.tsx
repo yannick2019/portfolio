@@ -37,7 +37,7 @@ const Page = () => {
                   Frontend development:
                 </span>
                 <br />
-                HTML5, CSS, JavaScript, TypeScript, React, TailwindCSS,
+                HTML5, CSS, JavaScript, TypeScript, React, Angular, TailwindCSS,
                 Bootstrap.
               </p>
               <p>
