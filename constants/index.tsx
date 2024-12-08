@@ -79,7 +79,7 @@ export const Projects = [
     title: "YanikoRestaurant",
     text: "E-commerce Restaurant web app using ASP.NET Core MVC, Entity Framework Core, Razor pages, Bootstrap, CI/CD pipeline.",
     img: "/yaniko-restaurant-capture.png",
-    href: "https://yaniko-restaurant-fyfxfbbddqe4dqh0.eastus-01.azurewebsites.net/",
+    href: "https://yaniko-restaurant-fyfxfbbddqe4dqh0.canadacentral-01.azurewebsites.net/",
     techImg: ["/NET_Core_Logo.png"],
   },
   {
