@@ -95,13 +95,13 @@ export const Projects = [
       "/mongodb.png",
     ],
   },
-  {
-    title: "Restaurant Koniya",
-    text: "Full-stack Restaurant website : HTML5, JavaScript and Bootstrap with backend in PHP.",
-    img: "/restaurant-capture.jpeg",
-    href: "http://koniya-restaurants.infinityfreeapp.com/index.html",
-    techImg: ["/html.png", "/js.png", "/bootstrap.jpeg", "/mysql.png"],
-  },
+  // {
+  //   title: "Restaurant Koniya",
+  //   text: "Full-stack Restaurant website : HTML5, JavaScript and Bootstrap with backend in PHP.",
+  //   img: "/restaurant-capture.jpeg",
+  //   href: "http://koniya-restaurants.infinityfreeapp.com/index.html",
+  //   techImg: ["/html.png", "/js.png", "/bootstrap.jpeg", "/mysql.png"],
+  // },
   {
     title: "Cloudpics",
     text: "Slick image gallery web application where user can upload image stocks, connect with their Gmail account, manage their own account and also search and filter results.",
@@ -114,13 +114,6 @@ export const Projects = [
     img: "/cookie-clicker-capture.png",
     href: "https://yannick2019.github.io/cookie-clicker/",
     techImg: ["/html.png", "/css.png", "/js.png"],
-  },
-  {
-    title: "Pokedex",
-    text: "Web app using React.js, JavaScript, Vite.js and CSS",
-    img: "/pokedex-capture.jpeg",
-    href: "https://yannick2019.github.io/pokedex",
-    techImg: ["/react.png", "/js.png", "/css.png"],
   },
   {
     title: "Hangman",
