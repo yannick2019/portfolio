@@ -95,13 +95,6 @@ export const Projects = [
       "/mongodb.png",
     ],
   },
-  // {
-  //   title: "Restaurant Koniya",
-  //   text: "Full-stack Restaurant website : HTML5, JavaScript and Bootstrap with backend in PHP.",
-  //   img: "/restaurant-capture.jpeg",
-  //   href: "http://koniya-restaurants.infinityfreeapp.com/index.html",
-  //   techImg: ["/html.png", "/js.png", "/bootstrap.jpeg", "/mysql.png"],
-  // },
   {
     title: "Cloudpics",
     text: "Slick image gallery web application where user can upload image stocks, connect with their Gmail account, manage their own account and also search and filter results.",
