@@ -82,19 +82,19 @@ export const Projects = [
     href: "https://yaniko-restaurant-fyfxfbbddqe4dqh0.canadacentral-01.azurewebsites.net/",
     techImg: ["/NET_Core_Logo.png"],
   },
-  {
-    title: "FriendLink",
-    text: "Facebook-style web app using React.js, JavaScript, Node js, Express, TailwindCSS, Axios.",
-    img: "/friendlink-capture.png",
-    href: "https://friendlink-client.vercel.app/",
-    techImg: [
-      "/react.png",
-      "/js.png",
-      "/tailwind.png",
-      "/node-js.png",
-      "/mongodb.png",
-    ],
-  },
+  // {
+  //   title: "FriendLink",
+  //   text: "Facebook-style web app using React.js, JavaScript, Node js, Express, TailwindCSS, Axios.",
+  //   img: "/friendlink-capture.png",
+  //   href: "https://friendlink-client.vercel.app/",
+  //   techImg: [
+  //     "/react.png",
+  //     "/js.png",
+  //     "/tailwind.png",
+  //     "/node-js.png",
+  //     "/mongodb.png",
+  //   ],
+  // },
   {
     title: "Cloudpics",
     text: "Slick image gallery web application where user can upload image stocks, connect with their Gmail account, manage their own account and also search and filter results.",
